@@ -53,7 +53,6 @@ public class TrainingButton : MonoBehaviour
 
             if (start == true)
             {
-                // flash 5,4,3,2,1
                 Debug.Log("Start Coroutine");
                 StartCoroutine("Train");
                 start = false;
