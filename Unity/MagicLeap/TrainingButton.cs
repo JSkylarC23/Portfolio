@@ -91,7 +91,7 @@ public class TrainingButton : MonoBehaviour
 
     IEnumerator Train()
     {
-        while (true) //CRASHED
+        while (true)
         {
             if (trainBool == false)
             {
